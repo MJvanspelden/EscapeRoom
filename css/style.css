@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: transparent;
+    height: 80px;
+    width: 370%;
+}
+label.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin: right 0px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    top: 400%;
+    left: 370%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: black;
+    box-shadow: 0 9px dark;
+    margin-top: 400px;
+}
+.btn:hover{
+    background-color: rgb(158, 158, 158);
+}
+.butoon:active{
+    background-color: transparent;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+html{
+    background-image: url(../IMG/bunker\ ingang.jpg);
+    position: fixed;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h1, p{
+    color: white;
+}
+a{
+    color:  white;
+}

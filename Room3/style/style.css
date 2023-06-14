@@ -1,0 +1,22 @@
+.paperCode{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+.img{
+height: 100px;
+width: 100px;
+}
+
+#papercode{
+    padding-left: 400px;
+    padding-top: 400px;
+}
+
+
+html {
+    background-image: url(../img/Chernobyl_B-Overview_7680x4320.webp);
+    width: 1920PX;
+    height: 1080px;
+    position: fixed;
+}
